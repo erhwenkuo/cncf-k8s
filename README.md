@@ -31,4 +31,6 @@ Kubernetes的進入門檻似乎有點高, 即便要做出第一個Hello World都
 
 * [1.3: Ingress & Ingress Controller範例(Part1)](https://www.slideshare.net/erhwenkuo/cncf-k8s-ingress-example01)
 
+* [1.4: Ingress & Ingress Controller範例(Part2)](https://www.slideshare.net/erhwenkuo/cncf-k8s-ingress-example02)
+
 ### 2. Kubernetes 存儲 (Volume)

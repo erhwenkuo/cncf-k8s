@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: app2-ing
+  labels:
+    app: app2
+  annotations:
+    nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
+    
+spec:
+  rules:
+    - host: app2.example.com
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: app2-service
+              servicePort: http
