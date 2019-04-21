@@ -9,6 +9,8 @@ Kubernetes的進入門檻似乎有點高, 即便要做出第一個Hello World都
 
 如果你/妳覺得這個repo對學習CNCF與Kubernetes有幫助, 除了給它一個star以外也請大家不吝嗇去推廣給更多的人。
 
+請注意: 以下的連結主要以Slideshare為主, 但大多數也都有Youtube的解說。**Youtube的連結在Slideshare的說明中**!!
+
 ## 內容
 
 ### 0. Kubernetes 架構
