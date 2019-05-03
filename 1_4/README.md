@@ -8,6 +8,10 @@
 
 ## 範例
 
-通過app2-ing將內部服務app2-svc的https(443)服務端口暴露到集群外，通過訪問http://app2.example.com即可訪問app2服務
+通過app2-ing將內部服務app2-svc的https(443)服務端口暴露到集群外，通過訪問`http://app2.example.com`即可訪問app2服務
+
+Slideshare: https://www.slideshare.net/erhwenkuo/cncf-k8s-ingress-example02/
+
+Youtube: https://youtu.be/0Gst9bUUTi4/
 
 
