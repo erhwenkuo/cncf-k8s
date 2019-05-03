@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: app3-ing
+  namespace: default
+  labels:
+    app: app3
+spec:
+  tls:
+    - hosts:
+        - app3.example.com
+      secretName: app3-tls-secret
+  rules:
+    - host: app3.example.com
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: app3-service
+              servicePort: https

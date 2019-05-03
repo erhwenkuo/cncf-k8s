@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=TW
+ST=Taipei
+L=Taipei
+O=example
+OU=witlab
+emailAddress=admin@example.com
+CN = localhost
