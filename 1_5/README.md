@@ -14,3 +14,5 @@
 
 為了讓ingress controller能夠進行SSL的通信握手, 必須要把SSL憑證上傳進Kubernetes裡, 然後設定Ingress來使用。
 
+* [簡報-Slideshare](https://www.slideshare.net/erhwenkuo/cncf-k8s-ingress-example03)
+* [內容教學-Youtube](https://youtu.be/gHNqwI378Hk)
